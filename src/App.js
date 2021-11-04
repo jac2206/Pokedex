@@ -47,7 +47,7 @@ function App() {
           </div>
           <div className="col-12">
             <ResultadoPokemon/>
-            <RadioButtonHook/>
+            {/* <RadioButtonHook/> */}
           </div>
         </div>            
         {/* <RadioButton/> */}

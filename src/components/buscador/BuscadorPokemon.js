@@ -36,35 +36,4 @@ const BuscadorPokemon = () => {
 export default BuscadorPokemon;
 
 
-// const BuscadorPokemon = () => {
-//     // const dispatch = useDispatch();
-//     const [pokemonName, setPokemonName] = useState('mewtwo');
 
-
-//     return(
-//         <div>
-//             <label htmlFor="buscar_pokemon" className="text-white">Buscar Pokemon</label>
-//             <input type="text" className="form-control" id="buscar_pokemon"
-//                 value={pokemonName}
-//                 onChange={
-//                     (event) => {
-//                         setPokemonName(event.target.value);
-//                     }
-//                 }
-//             />
-//             <button className="btn btn-primary mt-3" onClick={
-//                 () =>{
-//                     this.props.fetchPokemon(pokemonName)
-//                 }
-//             }>Enviar</button>
-//         </div>
-//     );
-
-// }
-
-
-// const mapDispatchToProps = {
-//     fetchPokemon
-// };
-
-// export default connect(null, mapDispatchToProps)(BuscadorPokemon);
